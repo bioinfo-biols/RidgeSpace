@@ -9,8 +9,6 @@ You can freely use RidgeSpace for illustrating, comparing, and tracking the spat
   Overview of RidgeSpace.
 </p>
 
-Under construction ......
-
 ### Prerequisites
 
     "matplotlib", "numpy", "pandas", "scipy"
