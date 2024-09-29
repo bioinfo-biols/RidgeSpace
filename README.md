@@ -31,6 +31,8 @@ pip install RidgeSpace
 
 ### Basic Examples
 
+Test data and code for RidgeSpace provided in the "tests" folder.
+
 Single-gene spatial depiction:
 ```bash
 RidgeSpace.pl_single(adata, plot_name = 'Mbp', obs_cluster='Clusters', elev=30, azim=160))
