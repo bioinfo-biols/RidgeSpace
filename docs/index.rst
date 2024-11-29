@@ -32,4 +32,9 @@ Key applications of RidgeSpace
    Single-gene spatial depiction
    Multi-modal spatial comparison
    Pseudotime spatial trajectory representation
-   
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   notebooks/Example 1
