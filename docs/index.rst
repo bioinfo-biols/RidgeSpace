@@ -37,4 +37,4 @@ Key applications of RidgeSpace
    :maxdepth: 2
    :caption: Contents:
 
-   Test1 1
+   Test1
