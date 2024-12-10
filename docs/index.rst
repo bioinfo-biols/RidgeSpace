@@ -34,7 +34,10 @@ Key applications of RidgeSpace
    Pseudotime spatial trajectory representation
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Examples:
 
-   Test1
+   VisiumBrain
+   StereoBrain
+   VisiumCancer
+
