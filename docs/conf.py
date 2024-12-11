@@ -55,7 +55,6 @@ exclude_patterns = []
 # Support for notebook formats other than .ipynb
 nbsphinx_custom_formats = {
     '.pct.py': ['jupytext.reads', {'fmt': 'py:percent'}],
-    '.md': ['jupytext.reads', {'fmt': 'Rmd'}],
 }
 
 ###
