@@ -5,3 +5,4 @@ sphinxcontrib-httpdomain
 sphinx-markdown-tables
 recommonmark
 nbsphinx
+jupytext

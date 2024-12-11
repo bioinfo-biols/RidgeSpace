@@ -52,6 +52,12 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
 
+# Support for notebook formats other than .ipynb
+nbsphinx_custom_formats = {
+    '.pct.py': ['jupytext.reads', {'fmt': 'py:percent'}],
+    '.md': ['jupytext.reads', {'fmt': 'Rmd'}],
+}
+
 ###
 # This is processed by Jinja2 and inserted before each notebook
 nbsphinx_prolog = r"""
