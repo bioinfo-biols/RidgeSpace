@@ -37,7 +37,7 @@ Key applications of RidgeSpace
    :maxdepth: 1
    :caption: Examples:
 
-   VisiumBrain
    StereoBrain
+   VisiumBrain
    VisiumCancer
 
