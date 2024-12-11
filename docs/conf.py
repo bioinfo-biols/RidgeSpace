@@ -52,6 +52,46 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
 
+# See https://www.sphinx-doc.org/en/master/latex.html
+latex_elements = {
+    'papersize': 'a4paper',
+    'printindex': '',
+    'sphinxsetup': r"""
+HeaderFamily=\rmfamily\bfseries,
+div.note_border-TeXcolor={HTML}{E0E0E0},
+div.note_border-width=0.5pt,
+div.note_box-decoration-break=slice,
+div.warning_border-TeXcolor={HTML}{E0E0E0},
+div.warning_border-width=1.5pt,
+div.warning_background-TeXcolor={HTML}{FBFBFB},
+div.warning_box-decoration-break=slice,
+div.topic_box-shadow=none,
+div.topic_border-TeXcolor={HTML}{E0E0E0},
+div.topic_border-width=0.5pt,
+div.topic_box-decoration-break=slice,
+""",
+    'fontpkg': r"""
+\usepackage{mathpazo}
+\linespread{1.05}  % see http://www.tug.dk/FontCatalogue/urwpalladio/
+\setmainfont{TeX Gyre Pagella}[Numbers=OldStyle]
+\setmonofont{Latin Modern Mono Light}[Numbers=Lining]
+""",
+    'preamble': r"""
+\urlstyle{tt}
+""",
+}
+
+latex_engine = 'lualatex'
+latex_use_xindy = False
+
+latex_table_style = ['booktabs']
+
+latex_documents = [
+    (master_doc, 'nbsphinx.tex', project, author, 'howto'),
+]
+
+latex_show_urls = 'footnote'
+latex_show_pagerefs = True
 
 # -- Options for HTML output -------------------------------------------------
 
