@@ -24,7 +24,7 @@ from recommonmark.parser import CommonMarkParser
 # -- Project information -----------------------------------------------------
 
 project = 'RidgeSpace'
-copyright = '2024, Ruiqiao He'
+copyright = 'Ruiqiao He'
 author = 'Ruiqiao He'
 
 # The full version, including alpha/beta/rc tags
